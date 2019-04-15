@@ -1,0 +1,31 @@
+<view>
+  <view>
+    <swiper indicator-dots="true" autoplay="true" interval='3000'>
+      <swiper-item>
+        <image src="/images/1.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src='/images/3.jpg'></image>
+      </swiper-item>
+      <swiper-item>
+        <image src='/images/4.jpg'></image>
+      </swiper-item>
+    </swiper>
+
+    <button class='jijiu' bindtap='onTap'>
+      <image src='/images/telephone-large.svg'></image>
+    </button>
+    <button class='bt1' hover-class='hover' bindtap='onMessageTap1'>
+  爱心急救
+    </button>
+
+    <button class='bt2' hover-class='hover' bindtap='onMessageTap2'>
+    帮家人
+    </button>
+    <view>
+      <button class='button1'></button>
+    </view>
+    <view class='button2'>
+    </view>
+  </view>
+</view>
